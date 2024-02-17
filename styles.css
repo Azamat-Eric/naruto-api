@@ -1,0 +1,97 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+div,
+img {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+#all-div {
+    max-width: 800px;
+    overflow-x: hidden;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#character {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+h1[id=name] {
+    text-align: center;
+    color: #333;
+}
+
+#bottom-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+#image-div {
+    flex-basis: 40%;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#properties {
+    flex-basis: 55%;
+}
+
+#main-informations,
+#family,
+#power-div,
+#jutsu-div {
+    margin-bottom: 20px;
+}
+
+#main-informations div,
+#family span,
+#power-div div,
+#jutsu-div h2 {
+    font-weight: bold;
+}
+
+#main-informations div,
+#family span,
+#power-div div,
+#jutsu-div div {
+    margin-bottom: 10px;
+}
+
+/* Add more styles and customization as needed */
+#show-more{
+    width: 200px;
+    height: 40px;
+    border: hidden;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    transform: translateX(-50%);
+    margin: 50px 0 50px 50%;
+    color: white;
+    font-size: 20px;
+}
+#show-more:hover{
+    filter: contrast(1.3);
+}
